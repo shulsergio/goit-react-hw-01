@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.cardList{
+    padding: 20px 0;
+display: flex;
+flex-direction: row;
+gap: 8px;
+}
+.cardItem{
+padding: 8px;
+width: 80px;
+height: 140px;
+border: 1px solid #000;
+border-radius: 4px;
+}
+
+.itemName{
+margin-bottom: 2px;
+font-size: 18px;
+font-weight: 600;    
+}
+
+
+.inetType{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+.isOffline{
+    color: red;
+}
+.isOnline {
+    color: green;
+}
