@@ -1,5 +1,28 @@
+.allTable{
+    border: 1px solid #000;
+}
 .columnType{
     width: 200px;
     padding: 0 10px;
 text-align: center;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    background-color: #444444;
+    color: #fff;
+}
+.tableData{
+    border-bottom: 1px solid #000;
+        border-right: 1px solid #000;
+}
+.tableRowData{
+    padding: 0;
+    background-color: #fff;
+}
+.tableRowData:nth-child(even) {
+    background-color: #c2c2c2;
+
+}
+.typeRowData{
+    text-align: left;
+    padding-left: 40px;
 }
